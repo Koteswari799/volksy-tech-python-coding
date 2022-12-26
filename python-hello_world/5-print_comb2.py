@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for i in range(99):
-    print("{:02d}".format(i),end=(','))
+ for i in range(99):
+    j=str(i).zfill(2)
+    print(j,',', end=' ')
 print(99)	
